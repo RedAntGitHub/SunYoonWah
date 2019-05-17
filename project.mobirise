@@ -801,6 +801,89 @@
           "_params": {}
         },
         {
+          "_params": {
+            "autoplay": true,
+            "animType": "stack",
+            "theme": "absent",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/dish-slide-1-800x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dish-slide-2.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dish-slide-3.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dish-slide-4.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dish-slide-5.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#f6efe5",
+            "timeout": "2",
+            "duration": "3",
+            "customSize": true,
+            "customWidth": "800",
+            "customHeight": "480",
+            "size": "800x600",
+            "width": "800",
+            "height": "480"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-30"
+        },
+        {
           "_name": "footer5",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -889,89 +972,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "animType": "stack",
-            "theme": "absent",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/dish-slide-1-800x480.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
-                "title": "title 1",
-                "text": "text 1",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/dish-slide-2.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
-                "title": "title 1",
-                "text": "text 1",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/dish-slide-3.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
-                "title": "title 1",
-                "text": "text 1",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/dish-slide-4.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
-                "title": "title 1",
-                "text": "text 1",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/dish-slide-5.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/dish-slide-1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dish-slide-1-85x48.png",
-                "title": "title 1",
-                "text": "text 1",
-                "active": false
-              }
-            ],
-            "fullScreen": true,
-            "showCaptions": false,
-            "hideControls": false,
-            "responsive": "1",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "captionsEffect": "slide",
-            "showBullets": false,
-            "bgColor": "#f6efe5",
-            "timeout": "2",
-            "duration": "3",
-            "customSize": true,
-            "customWidth": "800",
-            "customHeight": "480",
-            "size": "800x600",
-            "width": "800",
-            "height": "480"
-          },
-          "articleLayout": false,
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_anchor": "wowslider-30"
         }
       ]
     },
